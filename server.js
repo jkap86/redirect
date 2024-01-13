@@ -9,7 +9,7 @@ setInterval(() => {
 }, 25 * 60 * 1000);
 
 app.get('*', (req, res) => {
-    res.redirect(301, `https://sleepier-okarq.ondigitalocean.app${req.originalUrl}`);
+    res.redirect(301, `https://sleepier-jknpd.ondigitalocean.app${req.originalUrl}`);
 });
 
 app.listen(PORT, () => {
